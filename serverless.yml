@@ -5,7 +5,6 @@ provider:
   runtime: nodejs12.x
   stage: dev
   region: ap-southeast-1
-
 custom:
   fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
 
